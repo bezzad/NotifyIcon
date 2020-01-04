@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotifyIconWpf", "NotifyIcon\NotifyIconWpf.csproj", "{2B42D15B-0C00-480F-9BC1-F13CBFEF8713}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWpf", "SampleWpf\SampleWpf.csproj", "{5513E6A3-2F5F-41F6-BBEF-D5121081688E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B42D15B-0C00-480F-9BC1-F13CBFEF8713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B42D15B-0C00-480F-9BC1-F13CBFEF8713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B42D15B-0C00-480F-9BC1-F13CBFEF8713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B42D15B-0C00-480F-9BC1-F13CBFEF8713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5513E6A3-2F5F-41F6-BBEF-D5121081688E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5513E6A3-2F5F-41F6-BBEF-D5121081688E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5513E6A3-2F5F-41F6-BBEF-D5121081688E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5513E6A3-2F5F-41F6-BBEF-D5121081688E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E000DE3-BE84-430D-8F0E-58D5E64EF016}
+	EndGlobalSection
+EndGlobal

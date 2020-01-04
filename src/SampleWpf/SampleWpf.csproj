@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject>Samples.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\Bulb.ico" />
+    <None Remove="Icons\Computers.ico" />
+    <None Remove="Icons\Error.ico" />
+    <None Remove="Icons\Inactive.ico" />
+    <None Remove="Icons\NetDrives.ico" />
+    <None Remove="Images\Add.png" />
+    <None Remove="Images\Close.png" />
+    <None Remove="Images\Info.png" />
+    <None Remove="Images\Logo.png" />
+    <None Remove="Images\Preferences.png" />
+    <None Remove="Images\Remove.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotifyIcon\NotifyIconWpf.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\Bulb.ico" />
+    <Resource Include="Icons\Computers.ico" />
+    <Resource Include="Icons\Error.ico" />
+    <Resource Include="Icons\Inactive.ico" />
+    <Resource Include="Icons\NetDrives.ico" />
+    <Resource Include="Images\Add.png" />
+    <Resource Include="Images\Close.png" />
+    <Resource Include="Images\Info.png" />
+    <Resource Include="Images\Logo.png" />
+    <Resource Include="Images\Preferences.png" />
+    <Resource Include="Images\Remove.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
